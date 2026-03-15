@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mert Demirdöven - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Mert Demirdöven" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Mert Demirdöven">Mert Demirdöven</h1>
+
+          <p class="title">Software Engineering Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:anilsudemert@gmail.com" class="contact-link">anilsudemert<wbr>@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Telefon</p>
+
+              <a href="tel:+905538250909" class="contact-link">+90 553 825 09 09</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-06-23">June 23, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Tarsus, Mersin, Türkiye</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/Guidin9" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://instagram.com/mertdemirdovenn" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Hakkımda</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Özgeçmiş</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projeler</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>İletişim</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="hakkımda">
+
+        <header>
+          <h2 class="h2 article-title">Hakkımda</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Doğu Akdeniz Üniversitesi'nde (EMU) İngilizce Yazılım Mühendisliği bölümü öğrencisiyim. Geliştirme süreçlerine multidisipliner bir açıyla yaklaşıyor; sadece kod yazmakla kalmıyor, projelerin mimarisini ve kullanıcı deneyimini de uçtan uca tasarlıyorum.
+          </p>
+
+          <p>
+            Web teknolojilerinden Flutter ile mobil uygulama geliştirmeye, veri tabanı yönetiminden (SQL) Figma ve Canva destekli UI/UX tasarımlarına kadar geniş bir yelpazede yetkinlik sahibiyim. Kariyer hedefim; modern teknolojileri yakından takip ederek, estetik arayüzlere ve arka planda kusursuz çalışan güçlü algoritmalara sahip ölçeklenebilir yazılım çözümleri üretmek.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Neler Yapıyorum?</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX Tasarımı</h4>
+
+                <p class="service-item-text">
+                  Figma ve Canva kullanarak modern, kullanıcı dostu ve estetik arayüzler tasarlıyorum.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Geliştirme</h4>
+
+                <p class="service-item-text">
+                  Modern web teknolojileri ile duyarlı (responsive) ve hızlı web siteleri geliştiriyorum.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobil Uygulama</h4>
+
+                <p class="service-item-text">
+                  Flutter kullanarak iOS ve Android için performanslı ve şık mobil uygulamalar geliştiriyorum.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="database icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Veritabanı Yönetimi</h4>
+
+                <p class="service-item-text">
+                  SQL kullanarak güvenli ve optimize edilmiş veritabanı mimarileri kurguluyorum.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials (Şimdilik Gizlendi)
+        -->
+        
+        <!--
+          - clients (Şimdilik Gizlendi)
+        -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="özgeçmiş">
+
+        <header>
+          <h2 class="h2 article-title">Özgeçmiş</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Eğitim</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Doğu Akdeniz Üniversitesi (EMU)</h4>
+
+              <span>2021 — Devam Ediyor</span>
+
+              <p class="timeline-text">
+                İngilizce Yazılım Mühendisliği Bölümü (Lisans). Veri yapıları, algoritmalar, nesne yönelimli programlama ve yazılım mimarisi üzerine eğitim alıyorum.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Deneyim</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Freelance Yazılım Geliştirici</h4>
+
+              <span>2023 — Günümüz</span>
+
+              <p class="timeline-text">
+                Çeşitli projelerde mobil (Flutter) ve web teknolojileri kullanarak uçtan uca çözümler üretiyor, aynı zamanda UI/UX tasarımları yapıyorum.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Yeteneklerim</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Flutter (Dart)</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">UI/UX Design (Figma)</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development (HTML/CSS)</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL / Database</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="projeler">
+
+        <header>
+          <h2 class="h2 article-title">Projeler</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Tümü</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Mobil Uygulama</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>UI/UX</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Kategori Seç</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>Tümü</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Mobil Uygulama</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>UI/UX</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="mobil uygulama">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="Promil Master" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Promil Master</h3>
+
+                <p class="project-category">Mobil Uygulama</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ui/ux">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="AI Tarla Bakım" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AI Tarla Bakım Sistemi</h3>
+
+                <p class="project-category">UI/UX Tasarım</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="iletişim">
+
+        <header>
+          <h2 class="h2 article-title">İletişim</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102142.14713809634!2d34.81155021200251!3d36.917992790757786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152862a9ca1dfa83%3A0x6fb1cf2985be0b2d!2sTarsus%2C%20Mersin!5e0!3m2!1str!2str!4v1701234567890!5m2!1str!2str"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Bana Ulaşın</h3>
+
+          <form action="https://formsubmit.co/anilsudemert@gmail.com" method="POST" class="form" data-form>
+
+            <!-- FormSubmit ekstra ayarları -->
+            <input type="hidden" name="_subject" value="Portfolyo Sitemden Yeni Mesaj!">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="http://localhost:6342/vcard-personal-portfolio-master/index.html?success=true">
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Adınız Soyadınız" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="E-posta Adresiniz" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Mesajınız" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Mesaj Gönder</span>
+            </button>
+
+          </form>
+
+          <div class="form-success-message" style="display: none; margin-top: 20px; padding: 15px; background-color: #4ade80; color: #ffffff; border-radius: 8px; text-align: center;">
+            ✓ Mesajınız başarıyla gönderildi! Bana ulaştığında size geri döneceğim.
+          </div>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
