@@ -8,8 +8,43 @@
       <change afterPath="$PROJECT_DIR$/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avatar-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avatar-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avatar-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avatar-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icon-app.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icon-design.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icon-dev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icon-photo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icon-quote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo-1-color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo-2-color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo-3-color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo-4-color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo-5-color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo-6-color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/my-avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/project-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/project-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/project-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/project-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/project-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/project-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/project-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/project-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/project-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +83,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "Rebasing master",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -67,7 +102,7 @@
       <workItem from="1773568771637" duration="432000" />
       <workItem from="1773569224939" duration="1386000" />
       <workItem from="1773643284137" duration="117000" />
-      <workItem from="1774360588099" duration="346000" />
+      <workItem from="1774360588099" duration="735000" />
     </task>
     <servers />
   </component>
