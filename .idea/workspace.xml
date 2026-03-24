@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4a43998-bb29-4470-a8a2-7d852ce3c5b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/gemini-svg.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/project-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/project-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/project-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/project-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="f4a43998-bb29-4470-a8a2-7d852ce3c5b0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
