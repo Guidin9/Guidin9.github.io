@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
 
-Host: mertdemirdoven.me
 Sitemap: https://mertdemirdoven.me/sitemap.xml
-

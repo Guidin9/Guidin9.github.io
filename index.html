@@ -1,751 +1,408 @@
 <!DOCTYPE html>
 <html lang="tr">
-
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="google-site-verification" content="sPOEM-5lWu1ATSrI1Y7IrAj1O3FtnqjpdgO5YhkXNhE" />
-  <title>Mert Demirdöven | Yazılım Mühendisliği Öğrencisi & Geliştirici</title>
-
-  <meta name="description" content="Mert Demirdöven'in resmi sitesi: Flutter ve web geliştirme, UI/UX tasarımı, veritabanı, nesneye dayalı programlama odaklı projeler, özgeçmiş ve iletişim bilgileri.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mert Demirdöven | Yazılım Mühendisliği Öğrencisi &amp; Geliştirici</title>
+  <meta name="description" content="Mert Demirdöven, EMU Yazılım Mühendisliği son sınıf öğrencisi. Android, Windows, web ve ESP32 arasında çalışan projeleri, stajı, CV'si ve iletişim bilgileri.">
   <meta name="author" content="Mert Demirdöven">
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-  <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-  <meta name="bingbot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-  <meta name="referrer" content="strict-origin-when-cross-origin">
-  <meta name="theme-color" content="#121212">
+  <meta name="google-site-verification" content="sPOEM-5lWu1ATSrI1Y7IrAj1O3FtnqjpdgO5YhkXNhE">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#f3f5f7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0c1621" media="(prefers-color-scheme: dark)">
   <meta name="format-detection" content="telephone=no">
+
   <link rel="canonical" href="https://mertdemirdoven.me/">
-  <link rel="alternate" hreflang="tr-TR" href="https://mertdemirdoven.me/">
+  <link rel="alternate" hreflang="tr" href="https://mertdemirdoven.me/">
+  <link rel="alternate" hreflang="en" href="https://mertdemirdoven.me/en/">
   <link rel="alternate" hreflang="x-default" href="https://mertdemirdoven.me/">
 
-  <meta property="og:title" content="Mert Demirdöven | Yazılım Mühendisliği Öğrencisi & Geliştirici">
-  <meta property="og:description" content="Nesneye Dayalı Programlama, Flutter, web geliştirme, UI/UX ve veritabanı alanlarında projeler üreten Mert Demirdöven'in resmi portfolyo sitesi.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://mertdemirdoven.me/">
-  <meta property="og:image" content="https://mertdemirdoven.me/assets/images/mert-logo.png">
-  <meta property="og:image:secure_url" content="https://mertdemirdoven.me/assets/images/mert-logo.png">
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:alt" content="Mert Demirdoven logosu">
-  <meta property="og:locale" content="tr_TR">
   <meta property="og:site_name" content="Mert Demirdöven">
-
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:url" content="https://mertdemirdoven.me/">
+  <meta property="og:title" content="Mert Demirdöven | Yazılım Mühendisliği Öğrencisi &amp; Geliştirici">
+  <meta property="og:description" content="Telefon, bilgisayar ve küçük donanımlar arasında çalışan uygulamalar: Warpshot, RestoranManage, EpiRate, On Air ve daha fazlası.">
+  <meta property="og:image" content="https://mertdemirdoven.me/assets/img/og-tr.png">
+  <meta property="og:image:secure_url" content="https://mertdemirdoven.me/assets/img/og-tr.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Mert Demirdöven, yazılım mühendisliği öğrencisi ve geliştirici">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Mert Demirdöven | Yazılım Mühendisliği Öğrencisi & Geliştirici">
-  <meta name="twitter:description" content="Nesneye Dayalı Programlama, Flutter, web geliştirme, UI/UX ve veritabanı alanlarında projeler üreten Mert Demirdöven'in resmi portfolyo sitesi.">
-  <meta name="twitter:image" content="https://mertdemirdoven.me/assets/images/mert-logo.png">
-  <meta name="twitter:image:alt" content="Mert Demirdoven logosu">
   <meta name="twitter:site" content="@mrt_dmrdvn1">
   <meta name="twitter:creator" content="@mrt_dmrdvn1">
+  <meta name="twitter:title" content="Mert Demirdöven | Yazılım Mühendisliği Öğrencisi &amp; Geliştirici">
+  <meta name="twitter:description" content="Telefon, bilgisayar ve küçük donanımlar arasında çalışan uygulamalar: Warpshot, RestoranManage, EpiRate, On Air ve daha fazlası.">
+  <meta name="twitter:image" content="https://mertdemirdoven.me/assets/img/og-tr.png">
 
-  <!--
-    - favicon
-  -->
-  <link rel="icon" href="./favicon.ico" sizes="any">
-  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/mert-logo.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/mert-logo.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/mert-logo.png">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" href="/assets/img/favicon-96.png" type="image/png" sizes="96x96">
+  <link rel="icon" href="/assets/img/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png" sizes="180x180">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="application-name" content="Mert Demirdöven">
+  <meta name="apple-mobile-web-app-title" content="Mert Demirdöven">
 
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <script>try { var t = localStorage.getItem('theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}</script>
 
-  <!--
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap">
+  <link rel="stylesheet" href="/assets/css/site.css">
 
   <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Person",
-          "@id": "https://mertdemirdoven.me/#person",
-          "name": "Mert Demirdöven",
-          "url": "https://mertdemirdoven.me/",
-          "image": "https://mertdemirdoven.me/assets/images/mert-logo.png",
-          "jobTitle": "Software Engineering Student",
-          "description": "Nesneye Dayalı Programlama, Flutter, web gelistirme, UI/UX ve veritabani odakli projeler ureten yazilim gelistirici.",
-          "sameAs": [
-            "https://github.com/Guidin9",
-            "https://instagram.com/mertdemirdovenn",
-            "https://x.com/mrt_dmrdvn1",
-            "https://www.youtube.com/@Guidin9",
-            "https://discordapp.com/users/401447519693045770",
-            "https://www.linkedin.com/in/mertdemirdoven/"
-          ]
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://mertdemirdoven.me/#person",
+        "name": "Mert Demirdöven",
+        "alternateName": "Guidin9",
+        "url": "https://mertdemirdoven.me/",
+        "image": "https://mertdemirdoven.me/assets/img/og-tr.png",
+        "email": "mailto:contact@mertdemirdoven.me",
+        "jobTitle": "Software Engineering Student",
+        "affiliation": {
+          "@type": "CollegeOrUniversity",
+          "name": "Eastern Mediterranean University",
+          "url": "https://www.emu.edu.tr/"
         },
-        {
-          "@type": "WebSite",
-          "@id": "https://mertdemirdoven.me/#website",
-          "url": "https://mertdemirdoven.me/",
-          "name": "Mert Demirdöven",
-          "description": "Mert Demirdöven'in resmi sitesi.",
-          "publisher": {
-            "@id": "https://mertdemirdoven.me/#person"
-          },
-          "inLanguage": "tr-TR"
-        },
-        {
-          "@type": "WebPage",
-          "@id": "https://mertdemirdoven.me/#webpage",
-          "url": "https://mertdemirdoven.me/",
-          "name": "Mert Demirdöven | Yazılım Mühendisliği Öğrencisi & Geliştirici Portfolyosu",
-          "isPartOf": {
-            "@id": "https://mertdemirdoven.me/#website"
-          },
-          "about": {
-            "@id": "https://mertdemirdoven.me/#person"
-          },
-          "inLanguage": "tr-TR",
-          "primaryImageOfPage": {
-            "@type": "ImageObject",
-            "url": "https://mertdemirdoven.me/assets/images/mert-logo.png"
-          }
-        }
-      ]
-    }
+        "knowsLanguage": ["tr", "en"],
+        "knowsAbout": ["Android", "Kotlin", "Rust", ".NET", "Laravel", "React", "ESP32", "Bluetooth Low Energy"],
+        "sameAs": [
+          "https://github.com/Guidin9",
+          "https://www.linkedin.com/in/mertdemirdoven/",
+          "https://x.com/mrt_dmrdvn1",
+          "https://instagram.com/mertdemirdovenn",
+          "https://www.youtube.com/@Guidin9",
+          "https://discordapp.com/users/401447519693045770"
+        ]
+      },
+      {
+        "@type": "ProfilePage",
+        "url": "https://mertdemirdoven.me/",
+        "inLanguage": "tr",
+        "mainEntity": { "@id": "https://mertdemirdoven.me/#person" }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://mertdemirdoven.me/#website",
+        "url": "https://mertdemirdoven.me/",
+        "name": "Mert Demirdöven",
+        "inLanguage": ["tr-TR", "en"],
+        "publisher": { "@id": "https://mertdemirdoven.me/#person" }
+      }
+    ]
+  }
   </script>
 </head>
 
 <body>
+  <a class="skip" href="#icerik">İçeriğe geç</a>
 
-  <!--
-    - #MAIN
-  -->
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/">Mert Demirdöven</a>
+      <nav class="site-nav" aria-label="Bölümler">
+        <a href="#projeler">Projeler</a>
+        <a href="#deneyim">Deneyim</a>
+        <a href="#iletisim">İletişim</a>
+      </nav>
+      <div class="tools">
+        <a class="lang" href="/en/" hreflang="en" lang="en" aria-label="EN, read in English">EN</a>
+        <button class="theme-toggle" type="button" data-theme-toggle data-label-dark="Koyu temaya geç" data-label-light="Açık temaya geç" aria-label="Koyu temaya geç">
+          <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8 6 18M18 6l1.8-1.8"/></svg>
+          <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11Z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
 
-  <main>
+  <main id="icerik">
 
-    <!--
-      - #SIDEBAR
-    -->
+    <section class="hero" aria-labelledby="ad">
+      <div class="wrap">
+        <h1 id="ad"><span>Mert</span> <span>Demirdöven</span></h1>
 
-    <aside class="sidebar" data-sidebar>
+        <p class="lead">Doğu Akdeniz Üniversitesi'nde İngilizce <strong>Yazılım Mühendisliği</strong> son sınıf öğrencisiyim. Telefon, bilgisayar ve küçük donanımlar arasında çalışan, her gün kendim kullandığım araçlar yazıyorum. Bir şeyin hızlı ya da hafif olduğunu söylemeden önce ölçüyorum.</p>
 
-      <div class="sidebar-info">
+        <div class="actions">
+          <a class="btn" href="/assets/Cv/Mert_Demirdoven_CV.pdf" download="Mert_Demirdoven_CV.pdf">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M4 20h16"/></svg>
+            CV'yi indir (PDF)
+          </a>
+          <ul class="links-inline">
+            <li><a href="mailto:contact@mertdemirdoven.me">contact@mertdemirdoven.me</a></li>
+            <li><a href="https://github.com/Guidin9" rel="me">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/mertdemirdoven/" rel="me">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Mert Demirdöven" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Mert Demirdöven">Mert Demirdöven</h1>
-
-          <p class="title">Yazılım Mühendisliği Öğrencisi & Geliştirici</p>
+    <section class="section" id="projeler" aria-labelledby="projeler-baslik">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="projeler-baslik">Projeler</h2>
+          <p class="section-note">Son bir yılda yaptıklarım. Kaynak kodlarının hepsi GitHub'da açık.</p>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+        <div class="projects">
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+          <article class="project" id="warpshot">
+            <div>
+              <h3>Warpshot</h3>
+              <p class="where">Kişisel proje, Ekim 2026'dan beri günlük kullanımda</p>
+              <p class="summary">Telefonla bilgisayar arasında ekran görüntüsü, metin ve dosya gönderen açık kaynak uygulama. Ekran görüntüsünü aldıktan sonra tek kısayol yeter, hiçbir pencere açılmadan telefona gider. Telefondan bilgisayara göndermek için paylaş menüsünde bilgisayarı seçmek yeterli.</p>
+              <ul class="facts">
+                <li><b>Uçtan uca şifreli P2P:</b> QUIC ve TLS 1.3 üzerinde, içte kuantum sonrası hibrit (X-Wing) el sıkışması.</li>
+                <li><b>Hesap yok:</b> cihazlar QR kodla eşleşir. Sunucu gruba cihaz ekleyemez, içeriği okuyamaz.</li>
+                <li><b>0,8 MB RAM:</b> Windows ajanının boştaki bellek kullanımı, her sürümde ölçülüyor. İşlemci kullanımı neredeyse sıfır.</li>
+                <li><b>Sunucu maliyeti $0:</b> yalnızca cihazları doğrulayan ve uyandıran küçük bir Cloudflare Worker.</li>
+              </ul>
+              <p class="stack">Rust, iroh, Tauri, Kotlin ve Jetpack Compose, Cloudflare Workers, Firebase Cloud Messaging</p>
+              <ul class="project-links">
+                <li><a href="https://github.com/Guidin9/warpshot">Kaynak kodu</a></li>
+              </ul>
+            </div>
+            <figure class="shot">
+              <img src="/assets/img/warpshot.webp" width="1200" height="750" loading="lazy" alt="Warpshot Windows uygulamasında eşleşmiş cihazlar listesi: bilgisayar, tablet ve telefon">
+              <figcaption>Windows uygulaması, eşleşmiş cihazlar</figcaption>
+            </figure>
+          </article>
 
+          <article class="project" id="epirate">
+            <div>
+              <h3>EpiRate</h3>
+              <p class="where">Kişisel proje, Ekim 2026</p>
+              <p class="summary">Prime Video'da izlediğin bölümün IMDb puanını oynatıcının içinde, bölüm başlığının hemen altında gösteren tarayıcı eklentisi. Chrome, Brave ve Edge'de çalışır.</p>
+              <ul class="facts">
+                <li><b>Sezon grafiği:</b> rozete tıklayınca bütün bölümlerin puanı açılır. Gelecek bölümlerin adları gizli kalır, spoiler yok.</li>
+                <li><b>Doğru eşleşme:</b> "Yüzüklerin Efendisi: Güç Yüzükleri" gibi yerelleştirilmiş adlardan doğru diziyi bulur.</li>
+                <li><b>12 dilde arayüz,</b> 34 dilde Prime Video bölüm satırını okuyabiliyor.</li>
+                <li><b>Hesap, reklam ve takip yok.</b> Sonuçlar yalnızca cihazda önbelleğe alınır.</li>
+              </ul>
+              <p class="stack">JavaScript, Chrome eklentisi (Manifest V3), headless Chrome ile testler</p>
+              <ul class="project-links">
+                <li><a href="https://github.com/Guidin9/epirate">Kaynak kodu</a></li>
+              </ul>
+            </div>
+            <figure class="shot">
+              <img src="/assets/img/epirate-tr.webp" width="1200" height="750" loading="lazy" alt="Prime Video oynatıcısında bölüm başlığının altında IMDb puanı rozeti">
+              <figcaption>Bölümün puanı, oynatıcıda başlığın altında</figcaption>
+            </figure>
+          </article>
+
+          <article class="project" id="live-meter">
+            <div>
+              <h3>Live Meter</h3>
+              <p class="where">Kişisel proje, Ekim 2026</p>
+              <p class="summary">Şarj akımını ve ağ hızını Android'in durum çubuğunda canlı gösteren uygulama. Telefonun o an kaç mA şarj aldığını ya da harcadığını, şarjın ne zaman dolacağını ve gün içinde ne kadar veri kullanıldığını tek bakışta gösterir.</p>
+              <ul class="facts">
+                <li><b>Durum çubuğunda iki canlı simge:</b> şarj akımı (mA ya da W) ve ağ hızı. Akım simgesi varsayılan olarak yalnızca şarjdayken görünür.</li>
+                <li><b>Günlük özet:</b> bugün kaç mAh şarj edildiği ve harcandığı. Samsung'da kalan süre, kilit ekranındaki tahminle aynı.</li>
+                <li><b>Ağ geçmişi:</b> saat saat, son 7 gün ve bu ay mobil ve Wi-Fi kullanımı. Veri sistemin kendi kaydından geldiği için kurulumdan önceki günler de görünür.</li>
+                <li><b>Pil dostu:</b> simge yalnızca akım 10 mA değişince yeniden çizilir, telefon ısınınca yenileme yavaşlar. Release sürümü, ölçümde debug sürümünün yarısı kadar işlemci kullandı.</li>
+              </ul>
+              <p class="stack">Kotlin, Jetpack Compose, Android ön plan servisi, BatteryManager, NetworkStatsManager</p>
+              <ul class="project-links">
+                <li><a href="https://github.com/Guidin9/sarj-metre">Kaynak kodu</a></li>
+              </ul>
+            </div>
+            <div class="phones">
+              <figure class="shot is-phone">
+                <img src="/assets/img/live-meter-battery.webp" width="540" height="1170" loading="lazy" alt="Live Meter'ın batarya ekranı: anlık şarj akımı, kalan süre ve günlük özet">
+              </figure>
+              <figure class="shot is-phone">
+                <img src="/assets/img/live-meter-network.webp" width="540" height="1170" loading="lazy" alt="Live Meter'ın ağ ekranı: anlık hız ve bugünün saat saat Wi-Fi ve mobil kullanımı">
+              </figure>
+            </div>
+          </article>
+
+          <article class="project" id="on-air">
+            <div>
+              <h3>On Air</h3>
+              <p class="where">Mega Bilgisayar stajı, 2026</p>
+              <p class="summary">Kamera ya da mikrofon açılınca kapıdaki "On Air" tabelasını yakan sistem. İçinde Windows uygulaması, pilli bir ESP32-C3 cihazı ve 3B baskılı kutu var.</p>
+              <ul class="facts">
+                <li><b>Neredeyse sıfır yük:</b> Windows'un kendi gizlilik göstergesinin okuduğu kayıt defteri anahtarlarını olay tabanlı izler, boşta işlemci kullanmaz.</li>
+                <li><b>Güvenli bağlantı:</b> şifreli ve eşleşmiş Bluetooth LE. Tabela tanımadığı cihazdan komut almaz, 30 dakika haber alamazsa kendini kapatır.</li>
+                <li><b>Tek dosya kurulum:</b> yönetici izni istemeden kendini kuran ve kaldıran EXE.</li>
+                <li><b>Pil ömrü:</b> güç yönetimi açık derlemede 3000 mAh ile yaklaşık 4 hafta (tahmini).</li>
+              </ul>
+              <p class="stack">C# ve .NET 10, WinRT Bluetooth, ESP32-C3, NimBLE, Arduino, 3B baskı</p>
+              <ul class="project-links">
+                <li><a href="https://github.com/Guidin9/onair-ble">Kaynak kodu</a></li>
+                <li><a href="https://github.com/Guidin9/onair-ble/releases/latest">Windows için indir</a></li>
+              </ul>
+            </div>
+            <figure class="shot is-render">
+              <img src="/assets/img/onair.webp" width="846" height="562" loading="lazy" alt="Üst yüzünde ON AIR yazan dikdörtgen kutunun 3B modeli">
+              <figcaption>3B baskılı kutunun modeli</figcaption>
+            </figure>
+          </article>
+
+          <article class="project" id="isi-haritasi">
+            <div>
+              <h3>Sunucu odası ısı haritası</h3>
+              <p class="where">Mega Bilgisayar stajı, Temmuz 2026</p>
+              <p class="summary">Sunucu kabinindeki on noktadan sıcaklık ölçen ve sıcak noktaları 3B ısı haritasında gösteren izleme sistemi. Tarayıcıdan ve masa üstündeki küçük bir ekrandan canlı izlenir.</p>
+              <ul class="facts">
+                <li><b>Donanım:</b> ESP32-S3, 10 adet MCP9700 sıcaklık sensörü ve ortam için DHT11.</li>
+                <li><b>3B görselleştirme:</b> Three.js ile ölçüm noktaları arasında IDW enterpolasyonu, ayrıca M5Stack Core2 ekranında gösterim.</li>
+                <li><b>Router ayarı gerekmiyor:</b> cihazlar kendi Wi-Fi'ları üzerinden Azure'daki sunucuda buluşur. ESP-NOW bu yüzden bırakıldı.</li>
+                <li><b>Backend:</b> Node.js, Express ve SQLite. Docker ile tek komutla kurulur.</li>
+              </ul>
+              <p class="stack">C++ (Arduino), MicroPython, Node.js, Express, SQLite, Three.js, Chart.js, Docker, Azure</p>
+              <ul class="project-links">
+                <li><a href="https://github.com/Guidin9/server-room-heatmap">Kaynak kodu</a></li>
+              </ul>
+            </div>
+            <figure class="shot">
+              <img src="/assets/img/rack-thermal.webp" width="1200" height="750" loading="lazy" alt="Sunucu kabininin 3B ısı haritası ve sağda on sensörün sıcaklık listesi">
+              <figcaption>Web arayüzü, simülatör verisiyle</figcaption>
+            </figure>
+          </article>
+
+        </div>
+
+        <h3 class="minor-title">Diğer projeler</h3>
+        <ul class="minor">
+          <li id="restoranmanage">
+            <h4>RestoranManage</h4>
+            <p>Küçük restoran ve kafeler için QR menü ve adisyon sistemi. Müşteri, mutfak, garson, kasa ve yönetici ekranları, üç aşamalı sipariş akışı ve kasa için günlük ciro özeti. Azure'da Docker ile yayına alındı.</p>
+            <p class="stack">Laravel 13, React 19, MySQL, Docker, Azure</p>
+            <ul class="project-links"><li><a href="https://github.com/Guidin9/RestoranManage">Kaynak kodu</a></li></ul>
+          </li>
+          <li id="claude-usage-footer">
+            <h4>claude-usage-footer</h4>
+            <p>Claude Code eklentisi: 5 saatlik kullanım limitinden ne kadar kaldığını alt bilgi satırında sürekli gösterir. Ağ çağrısı ve arka plan işlemi yok.</p>
+            <p class="terminal"><samp lang="en"><span class="nw">⏵⏵ auto mode on</span> &nbsp; <span class="nw"><span class="ok">5h: 62% left</span> · resets 05:30</span></samp></p>
+            <p class="stack">TypeScript, Claude Code eklenti API'si</p>
+            <ul class="project-links"><li><a href="https://github.com/Guidin9/claude-usage-footer">Kaynak kodu</a></li></ul>
+          </li>
+          <li id="liquid-glass-design">
+            <h4>liquid-glass-design</h4>
+            <p>Arayüzleri Apple'ın Liquid Glass tasarım diliyle kuran Claude Code skill'i. Android, web, Windows, SwiftUI ve Flutter için kurallar ve şablonlar.</p>
+            <p class="stack">Jetpack Compose, CSS, WinUI 3, SwiftUI, Flutter</p>
+            <ul class="project-links"><li><a href="https://github.com/Guidin9/liquid-glass-design">Kaynak kodu</a></li></ul>
+          </li>
+        </ul>
       </div>
+    </section>
 
-      <div class="sidebar-info_more">
+    <section class="section" id="deneyim" aria-labelledby="deneyim-baslik">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="deneyim-baslik">Deneyim ve eğitim</h2>
+        </div>
 
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
+        <ol class="timeline" reversed>
+          <li>
+            <div class="when"><time datetime="2026-07">Temmuz</time> – <time datetime="2026-08">Ağustos 2026</time></div>
+            <div>
+              <h3>Yazılım geliştirme stajyeri</h3>
+              <p class="org">Mega Bilgisayar Tic. Ltd. Şti., Ankara</p>
+              <p>Şirket içi ihtiyaçlar için donanım ve yazılımı birlikte içeren projeler geliştirdim. Cihaz yazılımından Windows ve web tarafına kadar bütün katmanlarda çalıştım.</p>
+              <ul>
+                <li><a href="#on-air">On Air</a>: kamera ya da mikrofon açılınca kapıdaki ışığı yakan Windows uygulaması, ESP32-C3 firmware'i ve 3B baskılı kutu.</li>
+                <li><a href="#isi-haritasi">Sunucu odası ısı haritası</a>: ESP32-S3 ile 10 sensörlü ölçüm, Azure'da Docker ile çalışan backend ve 3B ısı haritası arayüzü.</li>
+              </ul>
             </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:contact@mertdemirdoven.me" class="contact-link">contact<wbr>@mertdemirdoven.me</a>
+          </li>
+          <li>
+            <div class="when"><time datetime="2021">2021</time> – bugün</div>
+            <div>
+              <h3>Yazılım Mühendisliği (İngilizce), lisans</h3>
+              <p class="org">Doğu Akdeniz Üniversitesi (EMU), Gazimağusa</p>
+              <p>Son sınıf. Bitirme projesi: KKTC için yapay zekâ destekli emlak platformu (ekip projesi, devam ediyor).</p>
+              <p>Öne çıkan dersler: Nesneye Dayalı Programlama (Java), Veri Yapıları, Algoritma Analizi, Yazılım Kalite Güvencesi ve Testi, İstemci-Sunucu Programlama.</p>
             </div>
-
           </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Telefon</p>
-
-              <a href="tel:+905538250909" class="contact-link">+90 553 825 09 09</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="2003-06-23">June 23, 2003</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Tarsus, Mersin, Türkiye</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://github.com/Guidin9" target="_blank" rel="noopener noreferrer me" aria-label="GitHub profili" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://instagram.com/mertdemirdovenn" target="_blank" rel="noopener noreferrer me" aria-label="Instagram profili" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://x.com/mrt_dmrdvn1" target="_blank" rel="noopener noreferrer me" aria-label="X (Twitter) profili" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://discordapp.com/users/401447519693045770" target="_blank" rel="noopener noreferrer me" aria-label="Discord profili" class="social-link">
-              <ion-icon name="logo-discord"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.youtube.com/@Guidin9" target="_blank" rel="noopener noreferrer me" aria-label="YouTube kanali" class="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/mertdemirdoven/" target="_blank" rel="noopener noreferrer me" aria-label="LinkedIn profili" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-        </ul>
-
+        </ol>
       </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>Hakkımda</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Özgeçmiş</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Projeler</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>İletişim</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="hakkımda">
-
-        <header>
-          <h2 class="h2 article-title">Hakkımda</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            Doğu Akdeniz Üniversitesi'nde (EMU) İngilizce Yazılım Mühendisliği bölümü öğrencisiyim. Geliştirme süreçlerine multidisipliner bir açıyla yaklaşıyor; sadece kod yazmakla kalmıyor, projelerin mimarisini ve kullanıcı deneyimini de uçtan uca tasarlıyorum.
-          </p>
-
-          <p>
-            Web teknolojilerinden Flutter ile mobil uygulama geliştirmeye, veri tabanı yönetiminden (SQL) Figma ve Canva destekli UI/UX tasarımlarına kadar geniş bir yelpazede yetkinlik sahibiyim. Kariyer hedefim; modern teknolojileri yakından takip ederek, estetik arayüzlere ve arka planda kusursuz çalışan güçlü algoritmalara sahip ölçeklenebilir yazılım çözümleri üretmek.
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">Neler Yapıyorum?</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">UI/UX Tasarımı</h4>
-
-                <p class="service-item-text">
-                  Figma ve Canva kullanarak modern, kullanıcı dostu ve estetik arayüzler tasarlıyorum.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web Geliştirme</h4>
-
-                <p class="service-item-text">
-                  Modern web teknolojileri ile duyarlı (responsive) ve hızlı web siteleri geliştiriyorum.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobil Uygulama</h4>
-
-                <p class="service-item-text">
-                  Flutter kullanarak iOS ve Android için performanslı ve şık mobil uygulamalar geliştiriyorum.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/gemini-svg.svg" alt="database icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Backend & Veritabanı</h4>
-
-                <p class="service-item-text">
-                  Modern web standartlarına uygun olarak PHP tabanlı projeler üretiyor, verilerin MySQL üzerinde güvenle ve verimli bir şekilde yönetilmesini sağlıyorum.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials (Şimdilik Gizlendi)
-        -->
-        
-        <!--
-          - clients (Şimdilik Gizlendi)
-        -->
-
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="özgeçmiş">
-
-        <header>
-          <h2 class="h2 article-title">Özgeçmiş</h2>
-
-          <a href="./assets/Cv/Mert_Demirdoven_CV.pdf" download="Mert_Demirdoven_CV.pdf" class="form-btn">
-            <ion-icon name="download-outline"></ion-icon>
-            <span>CV'mi İndir</span>
-          </a>
-          
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Eğitim</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Doğu Akdeniz Üniversitesi (EMU)</h4>
-
-              <span>2021 — Devam Ediyor</span>
-
-              <p class="timeline-text">
-                İngilizce Yazılım Mühendisliği Bölümü (Lisans). Veri yapıları, algoritmalar, nesne yönelimli programlama ve yazılım mimarisi üzerine eğitim alıyorum.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Deneyim</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Freelance Yazılım Geliştirici</h4>
-
-              <span>2023 — Günümüz</span>
-
-              <p class="timeline-text">
-                Çeşitli projelerde mobil (Flutter) ve web teknolojileri kullanarak uçtan uca çözümler üretiyor, aynı zamanda UI/UX tasarımları yapıyorum.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">Yeteneklerim</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Flutter (Dart)</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">UI/UX Design (Figma)</h5>
-                <data value="85">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web Development (HTML/CSS)</h5>
-                <data value="75">75%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">SQL / Database</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="projeler">
-
-        <header>
-          <h2 class="h2 article-title">Projeler</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>Tümü</button>
-            </li>
-
-           
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <span class="select-value" data-selecct-value>Kategori Seç</span>
-
-              <span class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </span>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>Tümü</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Mobil Uygulama</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>UI/UX</button>
-              </li>
-
+    </section>
+
+    <section class="section" id="teknolojiler" aria-labelledby="teknoloji-baslik">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="teknoloji-baslik">Kullandığım teknolojiler</h2>
+          <p class="section-note">Projelerimde ve derslerimde kullandıklarım.</p>
+        </div>
+        <dl class="tech">
+          <div><dt>Programlama</dt><dd>Kotlin, Rust, C#, TypeScript, JavaScript, PHP, Python, Java, C++ (Arduino), SQL</dd></div>
+          <div><dt>Mobil</dt><dd>Android (Jetpack Compose), Flutter</dd></div>
+          <div><dt>Web</dt><dd>React, Vite, Tailwind CSS, Laravel, Node.js, Express, Three.js</dd></div>
+          <div><dt>Masaüstü</dt><dd>.NET (WinForms, WinRT), Tauri</dd></div>
+          <div><dt>Altyapı</dt><dd>Docker, Azure, Cloudflare Workers, Firebase, Caddy, Git, GitHub Actions</dd></div>
+          <div><dt>Donanım</dt><dd>ESP32 (S3, C3), Bluetooth LE, sensörler, M5Stack, 3B baskı</dd></div>
+          <div><dt>Yapay zekâ</dt><dd>Claude Code ile geliştirme, eklenti ve skill yazımı</dd></div>
+          <div><dt>Tasarım</dt><dd>Figma</dd></div>
+          <div><dt>Diller</dt><dd>Türkçe (ana dil), İngilizce (B2+, eğitim dilim)</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section" id="iletisim" aria-labelledby="iletisim-baslik">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="iletisim-baslik">İletişim</h2>
+        </div>
+        <div class="contact-grid">
+          <div>
+            <a class="mail" href="mailto:contact@mertdemirdoven.me">contact@<wbr>mertdemirdoven.me</a>
+            <p class="contact-note">Staj, iş ya da birlikte bir proje için yazabilirsin. Mersin ve Gazimağusa arasında yaşıyorum.</p>
+            <ul class="socials">
+              <li><a href="https://github.com/Guidin9" rel="me">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/mertdemirdoven/" rel="me">LinkedIn</a></li>
+              <li><a href="https://x.com/mrt_dmrdvn1" rel="me">X</a></li>
+              <li><a href="https://instagram.com/mertdemirdovenn" rel="me">Instagram</a></li>
+              <li><a href="https://www.youtube.com/@Guidin9" rel="me">YouTube</a></li>
+              <li><a href="https://discordapp.com/users/401447519693045770" rel="me">Discord</a></li>
             </ul>
-
           </div>
 
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="mobil uygulama">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="Promil Master" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Promil Master</h3>
-
-                <p class="project-category">Mobil Uygulama</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="ui/ux">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="AI Tarla Bakım" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">AI Tarla Bakım Sistemi</h3>
-                
-              </a>
-            </li>
-            <li class="project-item  active" data-filter-item data-category="ui/ux">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/image.png" alt="Emlak Sitesi Ui" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Kıbrıs Emlak sitesi Ui tasarım çalışması</h3>
-                <p class="project-category">Ui/Ux</p>
-
-              </a>
-            </li>
-
-
-
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="iletişim">
-
-        <header>
-          <h2 class="h2 article-title">İletişim</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102142.14713809634!2d34.81155021200251!3d36.917992790757786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152862a9ca1dfa83%3A0x6fb1cf2985be0b2d!2sTarsus%2C%20Mersin!5e0!3m2!1str!2str!4v1701234567890!5m2!1str!2str"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Bana Ulaşın</h3>
-
-          <form action="https://formsubmit.co/anilsudemert@gmail.com" method="POST" class="form" data-form>
-
-            <!-- FormSubmit ekstra ayarları -->
-            <input type="hidden" name="_subject" value="Portfolyo Sitemden Yeni Mesaj!">
-            <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="https://mertdemirdoven.me/?success=true">
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Adınız Soyadınız" required data-form-input aria-label="Ad Soyad">
-
-              <input type="email" name="email" class="form-input" placeholder="E-posta Adresiniz" required data-form-input aria-label="E-posta">
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Mesajınız" required data-form-input aria-label="Mesaj"></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Mesaj Gönder</span>
-            </button>
-
-          </form>
-
-          <div class="form-success-message" style="display: none; margin-top: 20px; padding: 15px; background-color: #4ade80; color: #ffffff; border-radius: 8px; text-align: center;">
-            ✓ Mesajınız başarıyla gönderildi! Bana ulaştığında size geri döneceğim.
+          <div>
+            <p class="notice" data-sent hidden role="status">Mesajın gönderildi. En kısa sürede dönüş yapacağım.</p>
+            <form class="form" action="https://formsubmit.co/anilsudemert@gmail.com" method="POST">
+              <input type="hidden" name="_subject" value="mertdemirdoven.me üzerinden yeni mesaj">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
+              <input type="hidden" name="_next" value="https://mertdemirdoven.me/?success=true#iletisim">
+              <div class="hp" aria-hidden="true"><label>Boş bırakın <input type="text" name="_honey" tabindex="-1" autocomplete="off"></label></div>
+              <div class="row">
+                <div class="field">
+                  <label for="ad-soyad">Ad soyad</label>
+                  <input id="ad-soyad" type="text" name="name" autocomplete="name" required>
+                </div>
+                <div class="field">
+                  <label for="eposta">E-posta</label>
+                  <input id="eposta" type="email" name="email" autocomplete="email" required>
+                </div>
+              </div>
+              <div class="field">
+                <label for="mesaj">Mesaj</label>
+                <textarea id="mesaj" name="message" required></textarea>
+              </div>
+              <button class="btn" type="submit">Mesajı gönder</button>
+            </form>
           </div>
-
-        </section>
-
-      </article>
-
-    </div>
+        </div>
+      </div>
+    </section>
 
   </main>
 
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© 2026 Mert Demirdöven</p>
+      <p>Son güncelleme: Ekim 2026</p>
+    </div>
+  </footer>
 
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+  <script src="/assets/js/site.js" defer></script>
 </body>
-
 </html>
